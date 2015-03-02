@@ -11,18 +11,56 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+### Dependencies
+
+This library is dependent on AFNetworking.  Instructions on how to add this framework to your project can be found at https://github.com/AFNetworking/AFNetworking.  
+
 ## Installation
 
-OptokAdLib-iOS is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Framework import
 
-    pod "OptokAdLib-iOS"
+1. Clone the repository or download the zip file from Github
+2. Drag OptokAdLib.Framework from the framework directory into your project
+
+### Cocoapods
+
+  Coming soon
+
+## Usage
+
+### Floating Ad
+
+FLOATING AD DESCRIPTION
+
+  OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+  [floatingAd presentAd:self];
+
+### Expanding Ad
+
+EXPANDING AD DESCRIPTION
+
+  OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+  [expandingAd presentAd:self];
+
+### Popup Ad
+
+POPUP AD DESCRIPTION
+
+  OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID"];
+  [popupAd presentAd:self];
+
+### Flex Ad
+
+FLEX AD DESCRIPTION
+
+  OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
+  [flexAd presentAd:self];
 
 ## Author
 
-Pawit Khid-arn, khidarn.pawit@gmail.com
+OPTok Co. Ltd., Thailand
 
 ## License
 
-OptokAdLib-iOS is available under the MIT license. See the LICENSE file for more info.
+OptokAdLib-iOS is available for use as is.  
 
