@@ -32,29 +32,37 @@ This library is dependent on AFNetworking.  Instructions on how to add this fram
 
 FLOATING AD DESCRIPTION
 
-  OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
-  [floatingAd presentAd:self];
+```
+OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+[floatingAd presentAd:self];
+```
 
 ### Expanding Ad
 
 EXPANDING AD DESCRIPTION
 
-  OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
-  [expandingAd presentAd:self];
+```
+OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+[expandingAd presentAd:self];
+```
 
 ### Popup Ad
 
 POPUP AD DESCRIPTION
 
-  OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID"];
-  [popupAd presentAd:self];
+```
+OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID"];
+[popupAd presentAd:self];
+```
 
-### Flex Ad
+## Flex Ad
 
 FLEX AD DESCRIPTION
 
-  OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
-  [flexAd presentAd:self];
+```
+OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
+[flexAd presentAd:self];
+```
 
 ## Author
 

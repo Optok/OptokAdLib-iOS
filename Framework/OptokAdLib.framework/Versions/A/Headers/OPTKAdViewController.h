@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <OPTKAd.h>
+#import "OPTKAd.h"
 
 #define USE_COLOR_BUTTONS false
 

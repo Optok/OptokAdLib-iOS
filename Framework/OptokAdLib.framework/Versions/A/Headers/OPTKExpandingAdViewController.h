@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <OPTKAdViewController.h>
+#import "OPTKAdViewController.h"
 
 @interface OPTKExpandingAdViewController : OPTKAdViewController
 
