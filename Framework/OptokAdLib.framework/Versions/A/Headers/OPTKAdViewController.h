@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "OPTKAd.h"
 
+#define ISIPAD     UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define ISIPHONE     UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone
+
 #define USE_COLOR_BUTTONS false
 
 @interface OPTKAdViewController : UIViewController<OPTKAdViewerDelegate>

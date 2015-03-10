@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 
-#import "AFNetworking.h"
+#import <AFNetworking.h>
 
 //@class OPTKMediaViewController;
 
@@ -66,6 +66,7 @@ enum OPTKAdType : NSUInteger {
 - (NSString *)title;
 - (NSString *)description;
 - (NSString *)landingUrlString;
+- (NSString *)subtitle;
 
 - (void)trackStart;
 - (void)trackStop;

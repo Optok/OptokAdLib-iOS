@@ -15,5 +15,6 @@
 @property(nonatomic,assign) CGFloat height;
 
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position andHeight:(CGFloat)height;
+- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position;
 
 @end

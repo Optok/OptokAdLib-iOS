@@ -12,6 +12,7 @@
 @interface OPTKPopupAdViewController : OPTKAdViewController
 
 @property(strong,nonatomic) UIView *backgroundView;
+@property(strong,nonatomic) UIView *tintedView;
 @property(strong,nonatomic) UIButton *closeButton;
 @property(strong,nonatomic) UIButton *fullVideo;
 @property(strong,nonatomic) UIButton *moreDetail;

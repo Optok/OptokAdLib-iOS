@@ -12,6 +12,7 @@
 @interface OPTKFlexAdViewController : OPTKAdViewController
 
 @property(nonatomic,assign) CGRect frame;
+@property(strong,nonatomic) UIView *backgroundView;
 @property(strong,nonatomic) UIButton *closeButton;
 
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withFrame:(CGRect)frame;
