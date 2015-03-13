@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MediaPlayer/MediaPlayer.h>
 
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 //@class OPTKMediaViewController;
 
@@ -51,17 +51,23 @@ enum OPTKAdType : NSUInteger {
 @property(nonatomic,assign) BOOL adEnabled;
 @property(nonatomic,assign) BOOL loadedBanner;
 @property(nonatomic,assign) BOOL loadedVideo;
+@property(nonatomic,assign) BOOL loadedBannerVideo;
 
 //@property(strong,nonatomic) id<OPTKMediaLoaderDelegate> mediaView;
 @property(strong,nonatomic) id<OPTKAdViewerDelegate> adView;
 @property(strong,nonatomic) UIImageView *bannerImageView;
 @property(strong,nonatomic) MPMoviePlayerController *videoPlayer;
+@property(strong,nonatomic) MPMoviePlayerController *videoBannerPlayer;
 
 - (id)initWithUid:(NSString *)uidString andSpotId:(NSString *)spotIdString;
 - (void)setupAd;
 - (UIView *)getInitialMediaView;
 - (UIView *)bannerView;
 - (UIView *)videoView;
+- (UIView *)videoBannerView;
+- (UIView *)bannerViewWithSuccess:(void (^)(UIView *))success;
+- (UIView *)videoViewWithSuccess:(void (^)(UIView *))success;
+- (UIView *)videoBannerViewWithSuccess:(void (^)(UIView *))success;
 
 - (NSString *)title;
 - (NSString *)description;

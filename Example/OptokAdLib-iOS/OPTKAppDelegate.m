@@ -7,12 +7,22 @@
 //
 
 #import "OPTKAppDelegate.h"
+#import "OPTKMenuTableViewController.h"
 
 @implementation OPTKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    OPTKMenuTableViewController *menuVc = [[OPTKMenuTableViewController alloc] initWithMenuItems];
+    UINavigationController *menuNav = [[UINavigationController alloc] initWithRootViewController:menuVc];
+    
+    [self.window setRootViewController:menuNav];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
