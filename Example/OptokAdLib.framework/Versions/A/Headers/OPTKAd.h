@@ -79,5 +79,6 @@ enum OPTKAdType : NSUInteger {
 - (void)trackClick;
 - (void)trackImpression;
 - (void)linkToUrl;
+- (void)stopAllVideos;
 
 @end

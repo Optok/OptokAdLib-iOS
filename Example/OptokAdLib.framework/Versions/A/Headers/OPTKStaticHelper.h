@@ -14,5 +14,7 @@
 + (UIImageView *)imageViewWithWidth:(CGFloat)width andHeight:(CGFloat)height;
 + (UIImage *)imageWithWidth:(CGFloat)width andHeight:(CGFloat)height andColor:(UIColor *)color;
 + (UIColor *)colorWithHexString:(NSString *)hex;
++ (NSBundle *)getOptokBundle;
++ (UIImage *)getImageWithName:(NSString *)imageName;
 
 @end
