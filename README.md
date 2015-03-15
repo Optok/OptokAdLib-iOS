@@ -30,25 +30,29 @@ This library is dependent on AFNetworking.  Instructions on how to add this fram
 
 ### Floating Ad
 
-FLOATING AD DESCRIPTION
+Stationary video/banner attached to either the top or bottom of the screen.  Size is 320x55 pixels.
 
 ```
-OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom];
 [floatingAd presentAd:self];
 ```
 
 ### Expanding Ad
 
-EXPANDING AD DESCRIPTION
+Stationary video/banner attached to either the top or bottom of the screen.  Size is 320x55 pixels. When clicked, detailed view will be displayed, pushed as a new view controller (iPhone) or modal (iPad).
 
 ```
 OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
 [expandingAd presentAd:self];
 ```
 
+#### Customizing detail view
+
+  Coming soon
+
 ### Popup Ad
 
-POPUP AD DESCRIPTION
+A modal view of the ad at a fixed position and dimension.  Buttons provided to expand the video to full screen or view details.
 
 ```
 OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID"];
@@ -57,7 +61,7 @@ OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWith
 
 ## Flex Ad
 
-FLEX AD DESCRIPTION
+A modal view of the ad, placed anywhere in the view by defining a frame.
 
 ```
 OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
