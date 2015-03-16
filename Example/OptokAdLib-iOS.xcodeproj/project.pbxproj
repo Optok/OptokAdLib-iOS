@@ -32,6 +32,7 @@
 		620E2DA21AB1392500A60984 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D981AB1392500A60984 /* AFURLResponseSerialization.m */; };
 		620E2DA31AB1392500A60984 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D9A1AB1392500A60984 /* AFURLSessionManager.m */; };
 		62B63BD41AB5A74700006971 /* OptokAdLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B63BD31AB5A74700006971 /* OptokAdLib.framework */; };
+		62CFBD631AB6C64500B92FEF /* OptokAd.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62CFBD621AB6C64500B92FEF /* OptokAd.bundle */; };
 		F0F684B7586A767D0D3E3036 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5D2D410B11174E8A66F8DA /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		620E2D991AB1392500A60984 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		620E2D9A1AB1392500A60984 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		62B63BD31AB5A74700006971 /* OptokAdLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OptokAdLib.framework; sourceTree = "<group>"; };
+		62CFBD621AB6C64500B92FEF /* OptokAd.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OptokAd.bundle; sourceTree = "<group>"; };
 		6FA23A9D5298A7503302464E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		775F03D6783D1BF43D9B594B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A48E5D53A227C96469C70AB4 /* Pods-OptokAdLib-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptokAdLib-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptokAdLib-iOS/Pods-OptokAdLib-iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62CFBD621AB6C64500B92FEF /* OptokAd.bundle */,
 				62B63BD31AB5A74700006971 /* OptokAdLib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
@@ -345,6 +348,7 @@
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				62CFBD631AB6C64500B92FEF /* OptokAd.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
