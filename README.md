@@ -20,7 +20,7 @@ This library is dependent on AFNetworking.  Instructions on how to add this fram
 ### Framework import
 
 1. Clone the repository or download the zip file from Github
-2. Drag OptokAdLib.Framework from the framework directory into your project
+2. Drag OptokAdLib.Framework and OptokAd.bundle from the framework directory into your project
 
 ### Cocoapods
 
