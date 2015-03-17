@@ -8,6 +8,7 @@
 
 #import "OPTKAppDelegate.h"
 #import "OPTKMenuTableViewController.h"
+#import <Rollbar/Rollbar.h>
 
 @implementation OPTKAppDelegate
 
@@ -22,6 +23,8 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [Rollbar initWithAccessToken:@"72135385e7d945ca939f7eaa374cd813"];
     
     return YES;
 }
