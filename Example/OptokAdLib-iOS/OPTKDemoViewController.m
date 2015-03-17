@@ -78,16 +78,16 @@
 
     switch (_adType) {
         case 0:
-            adViewController = [[OPTKFloatingAdViewController alloc] initWithUid:_uid andSpotId:_spotId withPosition:_position];
+            adViewController = [[OPTKFloatingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
             break;
         case 1:
-            adViewController = [[OPTKExpandingAdViewController alloc] initWithUid:_uid andSpotId:_spotId withPosition:_position];
+            adViewController = [[OPTKExpandingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
             break;
         case 2:
-            adViewController = [[OPTKFlexAdViewController alloc] initWithUid:_uid andSpotId:_spotId withFrame:_frame];
+            adViewController = [[OPTKFlexAdViewController alloc] initWithSlotName:_spotId withFrame:_frame];
             break;
         case 3:
-            adViewController = [[OPTKPopupAdViewController alloc] initWithUid:_uid andSpotId:_spotId];
+            adViewController = [[OPTKPopupAdViewController alloc] initWithSlotName:_spotId];
             break;
         default:
             adViewController = [[OPTKAdViewController alloc] init];

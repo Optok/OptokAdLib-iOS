@@ -17,6 +17,8 @@
 @property(strong,nonatomic) UIButton *fullVideo;
 @property(strong,nonatomic) UIButton *moreDetail;
 
-- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString;
+- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString __attribute__((deprecated));
+
+- (id)initWithSlotName:(NSString *)slotName;
 
 @end

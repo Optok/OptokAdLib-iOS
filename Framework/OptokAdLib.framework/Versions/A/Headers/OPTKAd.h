@@ -75,10 +75,14 @@ enum OPTKAdType : NSUInteger {
 - (NSString *)subtitle;
 
 - (void)trackStart;
+- (void)trackFirstQ;
+- (void)trackThirdQ;
 - (void)trackStop;
 - (void)trackClick;
 - (void)trackImpression;
 - (void)linkToUrl;
 - (void)stopAllVideos;
+
++ (NSString *)uidStringFromDevice;
 
 @end

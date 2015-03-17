@@ -33,7 +33,7 @@ This library is dependent on AFNetworking.  Instructions on how to add this fram
 Stationary video/banner attached to either the top or bottom of the screen.  Size is 320x55 pixels.
 
 ```
-OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom];
+OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc] initWithSlotName:@"SPOT_ID" withPosition:OPTKAdPositionBottom];
 [floatingAd presentAd:self];
 ```
 
@@ -42,7 +42,7 @@ OPTKFloatingAdViewController *floatingAd = [[OPTKFloatingAdViewController alloc]
 Stationary video/banner attached to either the top or bottom of the screen.  Size is 320x55 pixels. When clicked, detailed view will be displayed, pushed as a new view controller (iPhone) or modal (iPad).
 
 ```
-OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withPosition:OPTKAdPositionBottom andHeight:50];
+OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController alloc] initWithSlotName:@"SPOT_ID" withPosition:OPTKAdPositionTop];
 [expandingAd presentAd:self];
 ```
 
@@ -55,7 +55,7 @@ OPTKExpandingAdViewController *expandingAd = [[OPTKExpandingAdViewController all
 A modal view of the ad at a fixed position and dimension.  Buttons provided to expand the video to full screen or view details.
 
 ```
-OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID"];
+OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWithSlotName:@"SPOT_ID"];
 [popupAd presentAd:self];
 ```
 
@@ -64,7 +64,7 @@ OPTKPopupAdViewController *popupAd = [[OPTKPopupAdViewController alloc] initWith
 A modal view of the ad, placed anywhere in the view by defining a frame.
 
 ```
-OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithUid:@"UID" andSpotId:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
+OPTKFlexAdViewController *flexAd = [[OPTKFlexAdViewController alloc] initWithSlotName:@"SPOT_ID" withFrame:CGRectMake(100, 100, 100, 100)];
 [flexAd presentAd:self];
 ```
 

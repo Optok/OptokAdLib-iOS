@@ -14,7 +14,9 @@
 @property(assign) CGFloat height;
 @property(assign) enum OPTKAdPosition position;
 
-- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position andHeight:(CGFloat)height;
-- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position;
+- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position andHeight:(CGFloat)height __attribute__((deprecated));
+- (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position __attribute__((deprecated));
+
+- (id)initWithSlotName:(NSString *)slotName withPosition:(enum OPTKAdPosition)position;
 
 @end
