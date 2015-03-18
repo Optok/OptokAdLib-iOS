@@ -25,6 +25,7 @@
     [self.window makeKeyAndVisible];
     
     [Rollbar initWithAccessToken:@"72135385e7d945ca939f7eaa374cd813"];
+    [Rollbar infoWithMessage:@"Example started"];
     
     return YES;
 }
