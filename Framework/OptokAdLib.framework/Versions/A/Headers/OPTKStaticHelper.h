@@ -16,5 +16,6 @@
 + (UIColor *)colorWithHexString:(NSString *)hex;
 + (NSBundle *)getOptokBundle;
 + (UIImage *)getImageWithName:(NSString *)imageName;
++ (NSString *)getIPAddress;
 
 @end

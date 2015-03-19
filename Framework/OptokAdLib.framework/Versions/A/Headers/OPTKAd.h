@@ -65,9 +65,9 @@ enum OPTKAdType : NSUInteger {
 - (UIView *)bannerView;
 - (UIView *)videoView;
 - (UIView *)videoBannerView;
-- (UIView *)bannerViewWithSuccess:(void (^)(UIView *))success;
-- (UIView *)videoViewWithSuccess:(void (^)(UIView *))success;
-- (UIView *)videoBannerViewWithSuccess:(void (^)(UIView *))success;
+- (void)bannerViewWithSuccess:(void (^)(UIView *))success;
+- (void)videoViewWithSuccess:(void (^)(UIView *))success;
+- (void)videoBannerViewWithSuccess:(void (^)(UIView *))success;
 
 - (NSString *)title;
 - (NSString *)description;
@@ -84,5 +84,7 @@ enum OPTKAdType : NSUInteger {
 - (void)stopAllVideos;
 
 + (NSString *)uidStringFromDevice;
+
+- (MPMoviePlayerController *)expandVideo;
 
 @end

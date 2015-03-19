@@ -14,7 +14,6 @@
 
 @interface OPTKDemoViewController () {
     NSString *_spotId;
-    NSString *_uid;
     int _adType;
     enum OPTKAdPosition _position;
     CGRect _frame;
@@ -27,8 +26,7 @@
 - (id)initForFloatingAd:(enum OPTKAdPosition)position
 {
     if (self = [super init]) {
-        _spotId = @"TRUE_VIDEO_AD_BANNER";
-        _uid = @"UID";
+        _spotId = @"BANNER_VIDEO_AD_DEMO";
         _adType = 0;
         _position = position;
     }
@@ -38,8 +36,7 @@
 - (id)initForExpandingAd:(enum OPTKAdPosition)position
 {
     if (self = [super init]) {
-        _spotId = @"TRUE_VIDEO_AD_EXPAND";
-        _uid = @"UID";
+        _spotId = @"TRUE_VIDEO_EXPAND_DEMO";
         _adType = 1;
         _position = position;
     }
@@ -49,8 +46,7 @@
 - (id)initForFlexAd:(CGRect)frame
 {
     if (self = [super init]) {
-        _spotId = @"TRUE_VIDEO_AD";
-        _uid = @"UID";
+        _spotId = @"BANNER_VIDEO_AD_DEMO";
         _adType = 2;
         _frame = frame;
     }
@@ -60,8 +56,7 @@
 - (id)initForPopupAd
 {
     if (self = [super init]) {
-        _spotId = @"TRUE_VIDEO_AD";
-        _uid = @"UID";
+        _spotId = @"POPUP_VIDEO_AD_DEMO";
         _adType = 3;
     }
     return self;
