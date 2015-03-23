@@ -80,6 +80,7 @@ enum OPTKAdType : NSUInteger {
 - (void)trackThirdQ;
 - (void)trackStop;
 - (void)trackClick;
+- (void)trackClickWithRemark:(NSString *)remark;
 - (void)trackImpression;
 - (void)linkToUrl;
 - (void)stopAllVideos;

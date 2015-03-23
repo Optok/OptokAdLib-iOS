@@ -17,6 +17,7 @@
     int _adType;
     enum OPTKAdPosition _position;
     CGRect _frame;
+    OPTKAdViewController *_adViewController;
 }
 
 @end
@@ -62,34 +63,42 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
-    
-    OPTKAdViewController *adViewController;
 
     switch (_adType) {
         case 0:
-            adViewController = [[OPTKFloatingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
+            _adViewController = [[OPTKFloatingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
             break;
         case 1:
-            adViewController = [[OPTKExpandingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
+            _adViewController = [[OPTKExpandingAdViewController alloc] initWithSlotName:_spotId withPosition:_position];
             break;
         case 2:
-            adViewController = [[OPTKFlexAdViewController alloc] initWithSlotName:_spotId withFrame:_frame];
+            _adViewController = [[OPTKFlexAdViewController alloc] initWithSlotName:_spotId withFrame:_frame];
             break;
         case 3:
-            adViewController = [[OPTKPopupAdViewController alloc] initWithSlotName:_spotId];
+            _adViewController = [[OPTKPopupAdViewController alloc] initWithSlotName:_spotId];
             break;
         default:
-            adViewController = [[OPTKAdViewController alloc] init];
+            _adViewController = [[OPTKAdViewController alloc] init];
             break;
     }
     
-    [adViewController presentAd:self];
+    [_adViewController presentAd:self];
 }
 
 - (void)didReceiveMemoryWarning {
