@@ -76,6 +76,7 @@ enum OPTKAdType : NSUInteger {
 
 - (void)trackStart;
 - (void)trackFirstQ;
+- (void)trackMid;
 - (void)trackThirdQ;
 - (void)trackStop;
 - (void)trackClick;
