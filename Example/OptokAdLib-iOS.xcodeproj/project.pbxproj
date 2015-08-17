@@ -20,6 +20,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6203AE881B81B0D500D30B12 /* OptokAd.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6203AE861B81B0D500D30B12 /* OptokAd.bundle */; };
+		6203AE891B81B0D500D30B12 /* OptokAdLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6203AE871B81B0D500D30B12 /* OptokAdLib.framework */; };
 		620E2D801AB0189000A60984 /* OPTKMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D7F1AB0189000A60984 /* OPTKMenuTableViewController.m */; };
 		620E2D831AB018AC00A60984 /* OPTKDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D821AB018AC00A60984 /* OPTKDemoViewController.m */; };
 		620E2D9B1AB1392500A60984 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D891AB1392500A60984 /* AFHTTPRequestOperation.m */; };
@@ -31,8 +33,6 @@
 		620E2DA11AB1392500A60984 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D961AB1392500A60984 /* AFURLRequestSerialization.m */; };
 		620E2DA21AB1392500A60984 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D981AB1392500A60984 /* AFURLResponseSerialization.m */; };
 		620E2DA31AB1392500A60984 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 620E2D9A1AB1392500A60984 /* AFURLSessionManager.m */; };
-		623D426C1AC05BFA00812590 /* OptokAd.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 623D426A1AC05BF900812590 /* OptokAd.bundle */; };
-		623D426D1AC05BFA00812590 /* OptokAdLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623D426B1AC05BFA00812590 /* OptokAdLib.framework */; };
 		62819C8E1AB7ECC800E06E0A /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62819C8C1AB7ECC800E06E0A /* CrashReporter.framework */; };
 		62819C8F1AB7ECC800E06E0A /* Rollbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62819C8D1AB7ECC800E06E0A /* Rollbar.framework */; };
 		F0F684B7586A767D0D3E3036 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5D2D410B11174E8A66F8DA /* libPods-Tests.a */; };
@@ -69,6 +69,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6203AE861B81B0D500D30B12 /* OptokAd.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OptokAd.bundle; sourceTree = "<group>"; };
+		6203AE871B81B0D500D30B12 /* OptokAdLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OptokAdLib.framework; sourceTree = "<group>"; };
 		620E2D7E1AB0189000A60984 /* OPTKMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTKMenuTableViewController.h; sourceTree = "<group>"; };
 		620E2D7F1AB0189000A60984 /* OPTKMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPTKMenuTableViewController.m; sourceTree = "<group>"; };
 		620E2D811AB018AC00A60984 /* OPTKDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPTKDemoViewController.h; sourceTree = "<group>"; };
@@ -92,8 +94,6 @@
 		620E2D981AB1392500A60984 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		620E2D991AB1392500A60984 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		620E2D9A1AB1392500A60984 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		623D426A1AC05BF900812590 /* OptokAd.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OptokAd.bundle; sourceTree = "<group>"; };
-		623D426B1AC05BFA00812590 /* OptokAdLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OptokAdLib.framework; sourceTree = "<group>"; };
 		62819C8C1AB7ECC800E06E0A /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 		62819C8D1AB7ECC800E06E0A /* Rollbar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rollbar.framework; sourceTree = "<group>"; };
 		6FA23A9D5298A7503302464E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				62819C8E1AB7ECC800E06E0A /* CrashReporter.framework in Frameworks */,
-				623D426D1AC05BFA00812590 /* OptokAdLib.framework in Frameworks */,
+				6203AE891B81B0D500D30B12 /* OptokAdLib.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				257189342B59D408DF8AA877 /* libPods-OptokAdLib-iOS.a in Frameworks */,
@@ -158,8 +158,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				623D426A1AC05BF900812590 /* OptokAd.bundle */,
-				623D426B1AC05BFA00812590 /* OptokAdLib.framework */,
+				6203AE861B81B0D500D30B12 /* OptokAd.bundle */,
+				6203AE871B81B0D500D30B12 /* OptokAdLib.framework */,
 				62819C8B1AB7ECC800E06E0A /* Rollbar */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
@@ -364,7 +364,7 @@
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				623D426C1AC05BFA00812590 /* OptokAd.bundle in Resources */,
+				6203AE881B81B0D500D30B12 /* OptokAd.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,8 +580,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"/Users/pawit/Dropbox/Workspace/cocoapods/public/OptokAdLib-iOS/Framework",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/Rollbar",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -601,8 +600,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"/Users/pawit/Dropbox/Workspace/cocoapods/public/OptokAdLib-iOS/Framework",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/Rollbar",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

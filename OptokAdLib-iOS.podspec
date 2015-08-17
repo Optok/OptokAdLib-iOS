@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "OptokAdLib-iOS"
-  s.version          = "0.0.4"
+  s.version          = "0.0.7"
   s.summary          = "An SDK for integrationg OPTok Ad services into your iOS application."
   s.description      = ""
   s.homepage         = "https://github.com/Optok/OptokAdLib-iOS"
