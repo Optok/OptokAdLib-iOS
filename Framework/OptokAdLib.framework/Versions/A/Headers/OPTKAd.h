@@ -46,6 +46,7 @@ enum OPTKAdType : NSUInteger {
 @property(strong,nonatomic) NSString *ip;
 @property(nonatomic,assign) BOOL initSuccess;
 @property(strong,nonatomic) NSDictionary *adConfig;
+@property(strong,nonatomic) NSString *baseUrl;
 
 @property(nonatomic,assign) enum OPTKAdType adType;
 @property(nonatomic,assign) BOOL adEnabled;
@@ -68,11 +69,17 @@ enum OPTKAdType : NSUInteger {
 - (void)bannerViewWithSuccess:(void (^)(UIView *))success;
 - (void)videoViewWithSuccess:(void (^)(UIView *))success;
 - (void)videoBannerViewWithSuccess:(void (^)(UIView *))success;
+- (UIActivityViewController *)shareActivityController;
+
+- (UIImage *)moreInfoButtonImage;
+- (UIImage *)replayButtonImage;
+- (UIImage *)shareButtonImage;
 
 - (NSString *)title;
 - (NSString *)description;
 - (NSString *)landingUrlString;
 - (NSString *)subtitle;
+- (NSURL *)shareUrl;
 
 - (void)trackStart;
 - (void)trackFirstQ;
@@ -87,6 +94,10 @@ enum OPTKAdType : NSUInteger {
 - (void)trackClickWithRemark:(NSString *)remark;
 - (void)linkToUrl;
 - (void)stopAllVideos;
+- (void)seekVideoToStart;
+- (void)seekVideoToEnd;
+- (void)replayVideo;
+
 
 + (NSString *)uidStringFromDevice;
 

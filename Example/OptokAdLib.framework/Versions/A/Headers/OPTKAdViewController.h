@@ -24,6 +24,6 @@
 - (void)presentAd:(UIViewController *)viewController;
 - (void)updateMainAdViewWithView:(UIView *)view;
 - (void)close;
-
+- (void)showShareOptions;
 @end
 

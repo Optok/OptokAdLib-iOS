@@ -14,7 +14,7 @@
 @property(strong,nonatomic) UIView *backgroundView;
 @property(strong,nonatomic) UIView *tintedView;
 @property(strong,nonatomic) UIButton *closeButton;
-@property(strong,nonatomic) UIButton *fullVideo;
+@property(strong,nonatomic) UIButton *share;
 @property(strong,nonatomic) UIButton *moreDetail;
 
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString __attribute__((deprecated));

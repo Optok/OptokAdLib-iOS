@@ -13,6 +13,11 @@
 
 @property(assign) CGFloat height;
 @property(assign) enum OPTKAdPosition position;
+@property(strong,nonatomic) UIView *shareReplayControlView;
+@property(strong,nonatomic) UIButton *moreDetailButton;
+@property(strong,nonatomic) UIButton *replayButton;
+@property(strong,nonatomic) UIButton *shareButton;
+@property(assign) BOOL showingShareReplayControlView;
 
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position andHeight:(CGFloat)height __attribute__((deprecated));
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString withPosition:(enum OPTKAdPosition)position __attribute__((deprecated));
