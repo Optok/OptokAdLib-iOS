@@ -16,6 +16,9 @@
 @property(strong,nonatomic) UIButton *closeButton;
 @property(strong,nonatomic) UIButton *share;
 @property(strong,nonatomic) UIButton *moreDetail;
+@property(strong,nonatomic) UIView *shareReplayControlView;
+@property(strong,nonatomic) UIButton *replayButton;
+@property(assign) BOOL showingShareReplayControlView;
 
 - (id)initWithUid:(NSString *)UidString andSpotId:(NSString *)SpotIdString __attribute__((deprecated));
 

@@ -24,6 +24,7 @@
 - (void)addInitialMediaToView;
 - (void)updateMainAdViewWithView:(UIView *)view;
 - (void)setLayout;
+- (void)endVideoCallback;
 @end
 
 @interface OPTKAd : NSObject

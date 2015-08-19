@@ -25,5 +25,6 @@
 - (void)updateMainAdViewWithView:(UIView *)view;
 - (void)close;
 - (void)showShareOptions;
+- (void)endVideoCallback;
 @end
 
