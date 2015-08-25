@@ -47,7 +47,7 @@
 - (id)initForFlexAd:(CGRect)frame
 {
     if (self = [super init]) {
-        _spotId = @"OPTOK_VIDEO_BANNER_L";
+        _spotId = @"OPTOK_VDO_BANNER_L";
         _adType = 2;
         _frame = frame;
     }

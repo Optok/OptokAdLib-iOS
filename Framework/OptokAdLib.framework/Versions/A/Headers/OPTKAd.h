@@ -75,6 +75,7 @@ enum OPTKAdType : NSUInteger {
 - (UIImage *)moreInfoButtonImage;
 - (UIImage *)replayButtonImage;
 - (UIImage *)shareButtonImage;
+- (UIImage *)blackShareButtonImage;
 
 - (NSString *)title;
 - (NSString *)description;
@@ -99,6 +100,7 @@ enum OPTKAdType : NSUInteger {
 - (void)seekVideoToStart;
 - (void)seekVideoToEnd;
 - (void)replayVideo;
+- (BOOL)hasPurchaseUrl;
 
 
 + (NSString *)uidStringFromDevice;

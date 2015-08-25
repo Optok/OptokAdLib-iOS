@@ -130,7 +130,7 @@
             demoView = [[OPTKDemoViewController alloc] initForExpandingAd:OPTKAdPositionTop];
             break;
         case 4:
-            demoView = [[OPTKDemoViewController alloc] initForFlexAd:CGRectMake(100, 100, 100, 100)];
+            demoView = [[OPTKDemoViewController alloc] initForFlexAd:CGRectMake(20, 20, 250, 250)];
             break;
         case 5:
             demoView = [[OPTKDemoViewController alloc] initForPopupAd];
