@@ -97,11 +97,12 @@ enum OPTKAdType : NSUInteger {
 - (void)linkToUrl;
 - (void)linkToPurchase;
 - (void)stopAllVideos;
+- (void)removeAllVideos;
 - (void)seekVideoToStart;
 - (void)seekVideoToEnd;
 - (void)replayVideo;
 - (BOOL)hasPurchaseUrl;
-
+- (void)cancelAds;
 
 + (NSString *)uidStringFromDevice;
 
