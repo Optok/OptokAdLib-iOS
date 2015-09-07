@@ -25,6 +25,7 @@
 - (void)updateMainAdViewWithView:(UIView *)view;
 - (void)setLayout;
 - (void)endVideoCallback;
+- (void)removeFromSuperview;
 @end
 
 @interface OPTKAd : NSObject

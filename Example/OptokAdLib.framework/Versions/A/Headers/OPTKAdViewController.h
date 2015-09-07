@@ -26,5 +26,6 @@
 - (void)close;
 - (void)showShareOptions;
 - (void)endVideoCallback;
+- (void)removeFromSuperview;
 @end
 
