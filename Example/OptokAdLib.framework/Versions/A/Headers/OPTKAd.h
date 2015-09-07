@@ -94,6 +94,7 @@ enum OPTKAdType : NSUInteger {
 - (void)trackMute;
 - (void)trackFullscreen;
 - (void)trackImpression;
+- (void)trackReplay;
 - (void)trackClickWithRemark:(NSString *)remark;
 - (void)linkToUrl;
 - (void)linkToPurchase;
@@ -102,6 +103,7 @@ enum OPTKAdType : NSUInteger {
 - (void)seekVideoToStart;
 - (void)seekVideoToEnd;
 - (void)replayVideo;
+- (void)replayWithoutReplaceVideo;
 - (BOOL)hasPurchaseUrl;
 - (void)cancelAds;
 
